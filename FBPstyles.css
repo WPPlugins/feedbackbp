@@ -1,0 +1,107 @@
+/*
+Plugin Name: Feedback by Paragraph
+Plugin URI: http://andydickinson.net
+Author: Andy Dickinson
+Author URI: http://andydickinson.net
+Description:Displays a pop up comment on each paragraph. Designed to provide student feedback.
+Version: 0.5.2
+
+Copyright 2009  Andy Dickinson  (email : judgemonkey@mac.com)
+
+    This program is free software; you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation; either version 2 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program; if not, write to the Free Software
+    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
+*/
+
+div.FBPcontent, div.FBPcontent *{
+        margin: 5px;
+	padding: 0;
+	
+}
+
+/* taking back some of the pop up window styles */
+
+div.FBPcomments{
+margin= 3px;
+}
+
+div.FBPcomments li {
+list-style:none;
+border-bottom: thin solid #999;
+}
+
+p.FBPauthor {
+font-weight:bold;
+}
+
+#TB_window {
+margin:5px;
+}
+
+#TB_window  H2 {
+
+}
+
+#TB_window p {
+
+}
+
+p.FBPcommentcontent {
+
+}
+
+div.commentform {
+
+}
+
+
+/**** Speech Bubble Icons *****/
+/* From http://desandro.com/resources/css-speech-bubble-icon */
+.spch-bub-inside {
+  position: relative;
+
+}
+
+a.spch-bub-inside {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px;
+  margin:0;
+  font-style: normal;
+}
+
+.spch-bub-inside em {
+  font-style: normal;
+}
+.spch-bub-inside em {
+  background: #ddd;
+  color: #FFF;
+  padding: 0 0.4em;
+  -moz-border-radius: 0.25em;
+  -webkit-border-radius: 0.25em;
+  border-radius: 0.25em;
+  position: relative;
+}
+
+a.spch-bub-inside:hover {
+  color: #Fff;
+}
+a.spch-bub-inside:hover em {
+  cursor: pointer;
+  background: #2D7BB2;
+  color: #FFf;
+}
+a.spch-bub-inside:hover .point {
+  border-left: 0.5em solid #F00; 
+}
+
